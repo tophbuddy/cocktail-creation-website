@@ -113,6 +113,7 @@ fabric.properties
 
 ### Java ###
 # Compiled class file
+target/
 *.class
 
 # Log file
@@ -143,7 +144,8 @@ logs
 **/*.backup.*
 **/*.back.*
 
-node_modules
+node_modules/
+.env
 bower_components
 
 *.sublime*
